@@ -1,0 +1,15 @@
+spring:
+    database:
+        driverClassName: org.postgresql.Driver
+    datasource:
+        password: postgres
+        platform: postgres
+        username: postgres
+    jpa:
+        database: POSTGRESQL
+        show-sql: true
+        generate-ddl: true
+        hibernate:
+          ddl-auto: none
+
+
